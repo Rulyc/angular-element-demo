@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~element-angular/theme/index.css";
+
+*{
+  margin:0;padding:0;
+}
+.el-menu-vertical-demo{
+  .el-menu.el-menu-vertical-demo{
+    border-right: solid 0px #e6e6e6;
+  }
+}
+.el-menu-item{
+  padding-left:50px !important;
+}
+.active:focus{
+  outline:none !important;
+}
